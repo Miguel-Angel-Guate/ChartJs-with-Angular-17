@@ -1,0 +1,48 @@
+.chart-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.chart-container .left,
+.chart-container .right {
+    flex: 1 0 50%;
+    /* Flex-grow, flex-shrink, flex-basis */
+    display: flex;
+    justify-content: center;
+    /* Centers content horizontally */
+    align-items: center;
+}
+
+.chart-container .left {
+    flex: 1 0 50%;
+    /* Flex-grow, flex-shrink, flex-basis */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    max-height: 54px;
+}
+
+.chart-container .right {
+    /* background-color: red; */
+    height: auto;
+}
+
+.data-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.data-point {
+   
+    color: red;
+    /* Removed quotes for CSS color value */
+}
+
+.data-point span {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+}

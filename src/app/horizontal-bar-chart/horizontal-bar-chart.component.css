@@ -1,0 +1,11 @@
+.general-bar-container {
+    display: flex;
+  }
+  
+  .general-bar-container .chart-details-container {
+    display: flex;
+    width: 100%;
+    background-color: green;
+    height: auto;
+  }
+  

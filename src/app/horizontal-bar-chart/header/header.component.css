@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.header .header-left {
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.header .header-left h1 {
+    color: rgba(10, 33, 19, 0.50);
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.header .header-right {
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .header-right span {
+    color: rgba(10, 33, 19, 0.50);
+    font-size: 15px;
+}

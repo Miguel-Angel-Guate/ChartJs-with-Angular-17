@@ -1,0 +1,12 @@
+<div class="chart-container">
+    <div class="left">
+        <canvas #myChart></canvas>
+    </div>
+    <div class="right">
+        <div class="data-container">
+            <div *ngFor="let dataPoint of dataPoints" class="data-point">
+                <span>{{ dataPoint }}</span>
+            </div>
+        </div>
+    </div>
+</div>

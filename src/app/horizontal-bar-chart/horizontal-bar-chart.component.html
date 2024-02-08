@@ -1,0 +1,8 @@
+<div>
+  <app-header [dataChartContent]="dataChartContent"></app-header>
+  <div class="chart-details-container" *ngIf="dataChartContent">
+    <ng-container *ngFor="let chartData of dataChartContent?.chartInstances">
+      <app-chart [chartData]="chartData" [dataPoints]="chartData.dataPoints"></app-chart>
+    </ng-container>
+  </div>
+</div>

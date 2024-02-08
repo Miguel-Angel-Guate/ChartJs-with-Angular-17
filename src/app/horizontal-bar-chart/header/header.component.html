@@ -1,0 +1,8 @@
+<div class="header" *ngIf="dataChartContent">
+    <div class="header-left">
+     <h1> {{ dataChartContent.marcaText }}</h1>
+    </div>
+    <div  class="header-right">
+      <span *ngFor="let subtitle of dataChartContent.subTitleColumn">{{subtitle}}</span>
+    </div>
+  </div>
