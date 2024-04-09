@@ -1,5 +1,9 @@
 # Angular Chart.js Module
 
+## Homepage Screenshot
+Here's a look at the homepage of our project:
+![Homepage Screenshot](/src/assets/images/chartview.png)
+
 This project is a standalone module integrating Chart.js with Angular 17, enhanced with the chartjs-plugin-datalabels for better data visualization. It's designed to be easily incorporated into any Angular application requiring dynamic and responsive charts.
 
 ## Features

@@ -85,7 +85,7 @@ export class ChartComponent {
           {
             data: currentValuesPercentages,
             label: '',
-            backgroundColor: '#008539',
+            backgroundColor: 'black',
             borderWidth: 0,
             borderColor: 'transparent',
             categoryPercentage: 1,
